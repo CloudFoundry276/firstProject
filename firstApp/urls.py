@@ -19,5 +19,5 @@ from firstApp import views as firstAppViews
 
 urlpatterns = [
     path('firstapp/', firstAppViews.display),
-    path('firstapp/datatime/', firstAppViews.displayDateTime),
+    path('firstapp/datetime/', firstAppViews.displayDateTime),
 ]
